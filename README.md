@@ -59,7 +59,58 @@ Al tener git descargado, es hora de consfigurar una cuenta local:
     (local):  - git branch -d nombre-de-la-rama-local
 ```
 
+## 🏆 K-6 (CLONAR UN REPOSITORIO)
+```
+    - git clone <url-repo-original>
+    - echo. > fix.txt
+    - git add .
+    - git commit -m "Enviar fix"
+    - git push -u origin main
+```
 
+## 🏆 K-7 (CLONAR UN REPOSITORIO Y SUBIRLO A OTRO REPOSITORIO)
+```
+   - git clone <url-repo-original>
+   - rm -rf .git
+   - git init
+   - git remote add origin <url-nuevo-repo>
+   - git add .
+   - git commit -m "Enviar repo"
+   - git branch -M main
+   - git push -u origin main
+```
+
+## 🏆 K-8 (ENVIAR DIRECTORIO VACIO)
+```
+   - mkdir barziman
+   - cd barziman
+   - echo > .gitkeep
+   - cd ..
+   - git add .
+   - git commit -m "enviar directorio vacio"
+   - git push -u origin main
+``` 
+
+## 🏆 K-9 (ELIMINAR UN ARCHIVO REMOTO)
+```
+   - echo. > fredziman.txt
+   - git add fredziman.txt
+   - git commit -m "Agregar fredziman.txt"
+   - git push origin main
+   - git rm fredziman.txt
+   - git commit -m "Eliminar fredziman.txt"
+   - git push origin main
+```
+
+## 🏆 K-10 (OCULTAR UN ARCHIVO PARA NO SER ENVIADO AL REPOSITORIO REMOTO)
+```
+ 	 - echo. > private.txt
+    -	echo "private.txt" > .gitignore
+    - type .gitignore
+    - git add .gitignore
+    - git commit -m "Agregar .gitignore"
+    -	git push origin main
+```
 
 ---
 <h3 align="center">SOCIAL OPLESK</h3>
