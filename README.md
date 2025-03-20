@@ -102,7 +102,7 @@ Al tener git descargado, es hora de consfigurar una cuenta local:
    - git push origin main
 ```
 
-## 🏆 K-10 (OCULTAR UN ARCHIVO PARA NO SER ENVIADO AL REPOSITORIO REMOTO)
+## 🏆 K-10 (OCULTAR UN ARCHIVO PARA NO ENVIARLO AL REPOSITORIO)
 ```
  	 - echo. > private.txt
     -	echo "private.txt" > .gitignore
